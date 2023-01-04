@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
     height: 5px;
     width: 10px;
 }
@@ -29,7 +29,7 @@
 
 *::-webkit-scrollbar-thumb {
     background-color: var(--orange);
-}
+} */
 
 body {
     margin: 0;
