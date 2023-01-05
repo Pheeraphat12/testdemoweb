@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+     <!-- Navbar Start -->
+     <header>
+        <!-- <h1 class="shop__logo">Flavaz First</h1> -->
+        <img src="/images/flavazfirst_logo.png" class="shop__logo" alt="">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="index">Home</a></li>
+                <li><a href="menu">Menu</a></li>
+                <li><a href="reviews">Reviews</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="login-signup">Login/Join</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle__label">
+            <span></span>
+        </label>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Contact UI Start -->
+    <section id="contactSect">
+        <div class="contactUs">
+            <div class="title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="box">
+
+                <!-- Form Box -->
+                <div class="contact form_ct">
+                    <h3>Send a Message</h3>
+                    <form action="https://formsubmit.co/719ec27e9c4733b35ba973852a27f4b0" method="POST">
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>First Name</span>
+                                    <input type="text" name="FirstName" placeholder="Enter first name" required>
+                                </div>
+                                <div class="inputBox">
+                                    <span>Last Name</span>
+                                    <input type="text" name="LastName" placeholder="Enter last name" required>
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Email</span>
+                                    <input type="email" name="Email" placeholder="Enter email" required>
+                                </div>
+                                <div class="inputBox">
+                                    <span>Phone</span>
+                                    <input type="tel" name="Phone" placeholder="Enter phone number" required>
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Message</span>
+                                    <textarea name="message" placeholder="Write your message here..." required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Info box -->
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+                        <div>
+                            <span><ion-icon name="location"></ion-icon></span>
+                            <p>3 Commerical Buildings, High Street, South Norwood <br> SE25 6EE London</p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="mail"></ion-icon></span>
+                            <a href="mailto:info@flavazfirst.com">info@flavazfirst.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call"></ion-icon></span>
+                            <a href="tel:020 8768 0554">020 8768 0554</a>
+                        </div>
+                        <ul class="sci">
+                            <li><a href="https://en-gb.facebook.com/flavazfirstltd/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href="https://www.instagram.com/flavazfirst/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="contact map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d377.4469792268414!2d-0.07437613746457977!3d51.399667935066276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s3%20Commerical%20Buildings%2C%20High%20Street%2C%20South%20Norwood%20SE25%206EE%20London!5e0!3m2!1sen!2suk!4v1672853190660!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact UI End -->
+    <script src="js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
